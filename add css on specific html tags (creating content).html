@@ -1,0 +1,33 @@
+CREATING CONTENT - targetting html and css
+p:first-child, p:last-of-type, p:contains('Lorem'), p:nth-child(3)
+******************************************************************
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="../jquery-3.3.1.min.js"></script>
+
+	<script>
+		$("document").ready(function(){
+				//$("p:first-child").css("border", "1px solid red"); //p:first-child (meaning target the first paragraph)
+				//$("p:last-of-type").css("border", "1px solid red"); //p:last-of-type (meaning target the last paragraph)
+				//$("p:contains('Lorem')").css("border", "1px solid red"); //p:contains('Lorem') [meaning target the paragraph that contains the word Lorem]
+				$("p:nth-child(3)").css("border", "1px solid red"); //targetting the 3rd paragraph
+		});
+	</script>
+
+	<style>
+	
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+</body>

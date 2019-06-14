@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Practice</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+
+<script type="text/javascript">
+	$("document").ready(function(){
+		var newText = $("<p>");
+		newText.append("<h1>I just replaced something</h1>");
+		$("#textBox").html(newText);   //this will change the paragraph to new text
+	});
+</script>
+
+<body>
+	<div id="textBox">
+		1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+	</div>
+</body>
+</html>

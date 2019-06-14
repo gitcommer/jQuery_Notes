@@ -1,0 +1,43 @@
+exchanging <p> tag
+******************
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="../jquery-3.3.1.min.js"></script>
+
+	<script>
+		//exchanging <p> tag
+
+		$("document").ready(function(){
+
+				//$("#create_text").click(function(){
+					//$("#container p:last").text("Replaced and created this text"); //when button is click, change the last paragraph
+				//});
+
+				$("#create_variable").click(function(){ 	//when button is click first paragraph will place in last paragraph
+					var newText = $('#container p:first');
+					$("#container p:last").html(newText);
+				});
+
+		});
+	</script>
+
+	<style>
+	
+	</style>
+
+</head>
+<body>
+	<a id="create" href="#">Create</a>
+	<a id="create_text" href="#">Create Text</a>
+	<a id="create_variable" href="#">Create Text</a>
+	<div id="container">
+		<p>1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+</body>

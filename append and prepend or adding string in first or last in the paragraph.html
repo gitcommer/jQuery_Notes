@@ -1,0 +1,38 @@
+append and prepend or adding string in first or last in the paragraph
+*********************************************************************
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="../jquery-3.3.1.min.js"></script>
+
+	<script>
+		//exchanging <p> tag
+
+		$("document").ready(function(){
+			$("#append").click(function(){
+				$("p:first").append("I just appended some copy!"); //append or add string to the last
+			});
+			$("#prepend").click(function(){
+				$("p:first").prepend("I just prepended some copy!"); //prepend or add string to the first
+			});
+		});
+	</script>
+
+	<style>
+	
+	</style>
+
+</head>
+<body>
+	<a id="append" href="#">Append</a>
+	<a id="prepend" href="#">Preppend</a>
+	<div id="container">
+		<p>1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+</body>

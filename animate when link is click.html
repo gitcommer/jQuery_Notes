@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		$("document").ready(function(){
+
+
+			$("#grow").click(function(){
+				$("#textBox").animate({width:"500px"},1000);
+			});
+
+
+			$("#move").click(function(){
+				$("#textBox").animate({marginLeft:"200px"},1000);
+			});
+
+
+			$("#bigger").click(function(){
+				$("#textBox").animate({fontSize:"40px"},3000);
+			});
+
+
+			$("#many").click(function(){
+				$("#textBox").animate({fontSize:"40px", marginLeft:"400px",width:"600px;"},2000);  //////more animation
+			});
+
+
+		});
+	</script>
+
+	<style>
+		#textBox{
+			width:200px;
+			height:200px;
+			background-color:#ccc;
+			position:absolute;
+			margin-top:20px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<a href="#" id="grow">Grow</a> | <a href="#" id="move">Move</a> | <a href="#" id="bigger">Bigger</a> | <a href="#" id="many">Many Things</a>
+
+	<div id="textBox">
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+		release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</div>
+
+</body>
+</html>

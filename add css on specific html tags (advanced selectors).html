@@ -1,0 +1,60 @@
+ADVANCE SELECTOR (targetting html and css)
+******************************************
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="../jquery-3.3.1.min.js"></script>
+
+	<script>
+		//ADVANCE SELECTOR (targetting html and css)
+		$("document").ready(function(){
+				//$("div > p").css("border", "2px solid blue"); //div > p (if p is inside the div)
+				//$("div > p.fourth-para").css("border", "2px solid blue"); //div > p.fourth-para (if p is inside the div and has fourth-para class)
+				$("#box + ul").css("border", "2px solid blue"); //#box + ul (target the <ul> ubos sa <div id="box">)
+		});
+	</script>
+
+	<style>
+	
+	</style>
+
+</head>
+<body>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+	<div>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p class="fourth-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+
+	<ul>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+	</ul>
+
+	<div id="box">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p class="last">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+
+	<ul>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+	</ul>
+</body>

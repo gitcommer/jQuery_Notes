@@ -1,0 +1,36 @@
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="../jquery-3.3.1.min.js"></script>
+
+	<script>
+
+		//call css using jquery and apply to html div / empty <p> tag using empty() / replace all content to div
+
+		$("document").ready(function(){
+			//$("#container p").wrap("<div class='colorBox'>"); //call css using jquery and apply to html div
+			//$("#container p:first").wrap("<div class='colorBox'>");
+			//$("#container p:first").empty(); //this will delete first paragraph
+			//$("<div>Container</div>").replaceAll("#container"); //replace all content to div
+			$("#container").replaceWith("<div>This has been replaced with</div>"); //replace all contect with this strings
+		});
+	</script>
+
+	<style>
+		.colorBox{
+			color:#00D8FF;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<p>1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	</div>
+</body>
