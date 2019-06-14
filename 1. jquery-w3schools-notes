@@ -1,1 +1,16 @@
+- when click hide p tag - https://www.w3schools.com/jquery/jquery_selectors.asp
+  selectors example
+- events example - meaning click, hover or whatever something will happen - https://www.w3schools.com/jquery/jquery_events.asp
+  use more jquery functionality
 
+
+--- $(selector).action()  //basic syntax
+                      - $ sign to define/access jQuery
+                      - (selector) to "query (or find)" HTML elements
+                      - jQuery action() to be performed on the element(s)
+                      
+--- $(this).hide() - hides the current element, meaning kong unsay naa sa page
+
+--- $(document).ready(function(){  //para dili dayon mo run ang jquery, unya ra siya mo run ining load na tanan sa doc.
+      // jQuery methods go here...
+    }); 
