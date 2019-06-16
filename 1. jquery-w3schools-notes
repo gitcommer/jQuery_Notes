@@ -1,3 +1,12 @@
+Variable
+Call Back Function
+JavaScript & JQuery Combine
+Get
+Set
+Add
+Remove
+
+
 - when click hide p tag - https://www.w3schools.com/jquery/jquery_selectors.asp
   selectors example
 - events example - meaning click, hover or whatever something will happen - https://www.w3schools.com/jquery/jquery_events.asp
@@ -14,3 +23,40 @@
 --- $(document).ready(function(){  //para dili dayon mo run ang jquery, unya ra siya mo run ining load na tanan sa doc.
       // jQuery methods go here...
     }); 
+    
+    
+Variable
+********
+text(function(i, origText)  - i willl return index and origText will return whats inside the html element
+attr("href", function(i, origValue){  - origValue is the original value of a link
+
+
+Call Back Function
+******************
+- a function inside function
+    
+    
+jQuery HTML
+***********
+Get: text() - return hello world in <p>hello world</p>
+     html() - return <p> in <p>hello world</p>
+     val() - return forms value
+     attr() - return links
+
+Set: - can add or change text / or add or change html element / add or change forms value
+     - Call Back Function - a function inside function
+                          - murag variable sa function kay addan nsd nimo og functionality lain sa call back function
+                         
+Add: append(), prepend(), after(), before(), JavaScript & JQuery Combine
+
+Remove: remove(), empty() - empty whats inside in html element
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
