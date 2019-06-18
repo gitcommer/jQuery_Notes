@@ -5,6 +5,10 @@ Get
 Set
 Add
 Remove
+CSS classes
+Dimensions
+Traversing
+  - Ancesstors
 
 
 - when click hide p tag - https://www.w3schools.com/jquery/jquery_selectors.asp
@@ -50,6 +54,20 @@ Set: - can add or change text / or add or change html element / add or change fo
 Add: append(), prepend(), after(), before(), JavaScript & JQuery Combine
 
 Remove: remove(), empty() - empty whats inside in html element
+
+CSS classes
+***********
+- addClass(), removeClass(), toggleClass()
+- css() - this will return css code
+
+Dimensions
+**********
+- return css code of width, height, padding, border, margin
+width(), height(), innerWidth(), innerHeight(), outerWidth(), outerHeight()
+
+Traversing - parent, children, relation
+**********
+Ancesstors - parent(), parents(), parentsUntil()
      
      
      
