@@ -9,6 +9,8 @@ CSS classes
 Dimensions
 Traversing
   - Ancesstors
+  - Siblings
+  - Filtering
 
 
 - when click hide p tag - https://www.w3schools.com/jquery/jquery_selectors.asp
@@ -68,6 +70,23 @@ width(), height(), innerWidth(), innerHeight(), outerWidth(), outerHeight()
 Traversing - parent, children, relation
 **********
 Ancesstors - parent(), parents(), parentsUntil()
+Siblings - siblings()  - like h2 tanan element kaoban ni h2 sa div kay ma style pero wlay labot si h2
+           $("h2").siblings("p"); - tanan p na kaoban ni h2 sulod sa div
+           next()      - meaning target and sulod ni h2 na element
+           nextAll()   - tanan sunod ni h2 sa ubos   
+           nextUntil() - tanan sunod ni h2 pero kutob ra ni
+           prev()      - sunod ni h2 pero pataas    
+           prevAll()    
+           prevUntil()
+ Filtering - meaning target specific element
+           - first() - like first div
+           - last()
+           - eq() - like number 1, 2, 3
+           - filter() - target specific
+           - not()
+           
+           
+           jQuery AJAX
      
      
      
