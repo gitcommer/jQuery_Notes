@@ -12,6 +12,9 @@ Traversing
   - Siblings
   - Filtering
 jQuery AJAX
+jQuery Misc
+  - noConflict()
+  - Filters - live search
 
 
 - when click hide p tag - https://www.w3schools.com/jquery/jquery_selectors.asp
@@ -100,9 +103,25 @@ $("button").click(function(){
   });
 }); 
 
-
-
 jQuery Misc
+***********
+- noConflict()
+note: - If two different frameworks are using $ as the same shortcut, one of them might stop working
+
+---sample1---
+note: - instead of using $ shift to jQuery
+$.noConflict();
+jQuery(document).ready(function(){
+  jQuery("button").click(function(){
+    jQuery("p").text("jQuery is still working!");
+  });
+});
+
+- Filters - live search
+
+
+
+JQUERY EXAMPLES
      
      
      
