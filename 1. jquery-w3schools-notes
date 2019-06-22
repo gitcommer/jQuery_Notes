@@ -1,4 +1,4 @@
-jquery examples - https://www.w3schools.com/jquery/jquery_examples.asp
+jquery examples (use this always) - https://www.w3schools.com/jquery/jquery_examples.asp
 
 Variable
 Call Back Function
@@ -123,14 +123,7 @@ jQuery(document).ready(function(){
 
 
 
-JQUERY EXAMPLES
-     
-     
-     
-     
-     
-     
-     
+
      
      
      
